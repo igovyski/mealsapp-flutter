@@ -23,6 +23,7 @@ class CategoryItem extends StatelessWidget {
       onTap: () => _selectedCategory(context),
       borderRadius: BorderRadius.circular(15),
       splashColor: Theme.of(context).primaryColor,
+      focusColor: Colors.white,
       child: Container(
         padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(

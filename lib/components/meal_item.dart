@@ -5,10 +5,7 @@ import 'package:meals/utils/app_routes.dart';
 class MealItem extends StatelessWidget {
   final Meal meal;
 
-  const MealItem({
-    super.key,
-    required this.meal,
-  });
+  const MealItem(this.meal, {super.key});
 
   void _selectMeal(BuildContext context) {
     Navigator.of(context).pushNamed(
